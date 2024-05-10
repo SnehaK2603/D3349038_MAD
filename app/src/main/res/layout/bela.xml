@@ -1,0 +1,63 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="150dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="300dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/plant_9"
+				android:scaleType="fitXY" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="DISCRIPTION "
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Gastroduodenal ulcers are the most common form of gastric ulcers. Such ulcers develop when there is an imbalance in the acid mucosa levels, or due to oxidative stress along the gastric tract. Experiments gave positive results in gastric ulcer inhibition. The phenolic compounds found in bael extracts possessed potent antioxidants which helped in reducing gastric ulcers."
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="USES"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="&gt;&gt; Oxidative stress induced hyerglacemia or diabetes can be reduced to a great extent by extracts of bael leaf. Studies have shown that administering leaf extracts of bael reduced blood glucose levels up to 54%.\n\n&gt;&gt; Bael leaf extracts were studied for their cholesterol control. They were effective in decreasing blood cholesterol levels comparable to modern drugs. Bael leaf extracts controlled not just blood cholesterol levels but also triglycerides and serum and tissue lipid profiles."
+			android:textSize="12sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>
